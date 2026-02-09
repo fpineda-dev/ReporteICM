@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/reporte.css" rel="stylesheet"> <!--media="print"-->
+    <link rel="icon" type="favicon/x-icon" href="img/logo_transparente.png" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fontello-b4a708b2/css/animation.css">
+    <title>Resumen Finanzas</title>
+</head>
+<body>
+    <h1>Resumen</h1>
+
+    <aside>
+        <address id="from">            
+            <span id="logoTitle"><img src="./img/logo_transparente.png" alt="logo ICM">
+            <P>Iglesia Cristo Misionera</P>
+            </span>
+            Desamparados, San Juan de Dios
+            Contiguo a la escuela Sotero Gonzales,
+            Calle la Amistad
+        </address>
+
+        <address id="to">
+            Reporte General de Finanzas
+      </address>
+    </aside>
+
+    <dl id="informations">
+      <dt>Periodo</dt>
+      <dd>
+        <input 
+            class="campo__field"
+            type="text" 
+            placeholder="Local" 
+            id="mes"  
+            size="4"                                   
+        >
+      </dd>
+      <dt>Fecha</dt>
+      <dd>
+        <input 
+            class="campo__field"
+            type="date" 
+            placeholder="Tu Fecha" 
+            id="fecha"
+            placeholder="dd-mm-yyyy" 
+            min="1997-01-01" max="2030-12-31"                  
+            >
+      </dd>
+    </dl>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Mes</th>                    
+          <th>Entradas</th>
+          <th>Salidas</th>
+          <th>Estado</th>
+        </tr>
+      </thead>
+
+
+
+      <tbody>
+        <!-- <tr>
+          <td>2025-12-05</td>
+          <td id="valdate">₡8,785</td>
+          <td>₡0</td>
+          <td>₡8,785</td>
+        </tr>
+        <tr>
+          <td>2025-12-15</td>
+          <td id="valdate">₡3300</td>
+          <td>₡0</td>
+          <td>₡3300</td>
+        </tr>
+        <tr>
+          <td>2025-12-19</td>
+          <td id="valdate">₡92,918</td>
+          <td>₡42,900</td>
+          <td>₡50,018</td>          
+        </tr> 
+        <tr>
+          <td>Lunes 29 Saldo Caja</td>
+          <td id="valdate">₡0</td>
+          <td>₡42,900</td>
+          <td>₡0</td>
+        </tr>-->
+         <tr>
+          <td>Enero</td>
+          <td id="valdate">₡359,865</td>
+          <td>₡206,985</td>
+          <td>₡152,880</td>
+        </tr>
+        <tr>
+          <td>Febrero</td>
+          <td id="valdate">₡313,005</td>
+          <td>₡174,053</td>
+          <td>₡138,952</td>
+        </tr>
+        <tr>
+          <td>Marzo</td>
+          <td id="valdate">₡336,660</td>
+          <td>₡176,760</td>
+          <td>₡159,900</td>
+        </tr>
+        <tr>
+          <td>Abril</td>
+          <td id="valdate">₡278,990</td>
+          <td>₡271,130</td>
+          <td>₡7860</td>
+        </tr>
+        <tr>
+          <td>Mayo</td>
+          <td id="valdate">₡234,235</td>
+          <td>₡282,375</td>
+          <td>₡-48,140</td>
+        </tr>
+        <tr>
+          <td>Junio</td>
+          <td id="valdate">₡272,705</td>
+          <td>₡229,290</td>
+          <td>₡43,415</td>
+        </tr>
+        <tr>
+          <td>Julio</td>
+          <td id="valdate">₡295,725</td>
+          <td>₡321,868</td>
+          <td>₡-26,143</td>
+        </tr> 
+         <tr>
+          <td>Agosto</td>
+          <td id="valdate">₡375,985</td>
+          <td>₡223,165</td>
+          <td>₡152,820</td>
+        </tr>
+        <tr>
+          <td>Septiembre</td>
+          <td id="valdate">₡369,060</td>
+          <td>₡259,975</td>
+          <td>₡109,085</td>
+        </tr>
+        <tr>
+          <td>Octubre</td>
+          <td id="valdate">₡405,840</td>
+          <td>₡278,523</td>
+          <td>₡127,317</td>
+        </tr>
+        <tr>
+          <td>Noviembre</td>
+          <td id="valdate">₡431,000</td>
+          <td>₡399,759</td>
+          <td>₡31,241</td>
+        </tr>
+        <tr>
+          <td>Diciembre</td>
+          <td id="valdate">₡554,160</td>
+          <td>₡304,686</td>
+          <td>₡249,474</td>
+        </tr>
+
+      </tbody> 
+
+
+
+    </table>
+
+    <footer>
+      <table id="total">
+        <thead>
+          <tr>            
+            <th>Total Entradas</th>
+            <th>Total Salidas</th>
+            <th>Estado</th>
+          </tr>
+        </thead>
+       <tbody>
+          <tr>            
+            <td id="total_entradas">₡4,227,230</td>
+            <td id="total_salidas">₡3,128,569</td>
+            <td id="estado">₡1,098,661</td>
+          </tr>
+        </tbody> 
+      </table>
+    </footer>
+    <!-- <script type="module" src="./js/reporte.js"></script> -->
+
+   
+</body>
+</html>
